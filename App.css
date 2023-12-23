@@ -1,0 +1,220 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+.form-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.home {
+    margin-right: 20px;
+    padding-top: 12px;
+
+}
+
+#head-section {
+    background-color: #2c3e50;
+    padding: 20px;
+    text-align: center;
+}
+
+#head-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#head-section ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#head-section ul li {
+    margin-right: 25px;
+
+
+}
+
+#home-link {
+    font-size: 24px;
+}
+
+
+
+#login-section {
+    background-color: #ecf0f1;
+}
+
+#register-section {
+    background-color: #3498db;
+    color: white;
+    box-shadow: rgb(44, 43, 43) 10px 10px 10px 10px;
+    border-radius: 10px;
+
+}
+
+#accountcreate-section {
+    background-color: #27ae60;
+    color: white;
+}
+
+
+.table-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #171313;
+    color: #ccc;
+}
+
+
+#logout {
+
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+.contact-details-card-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contact-details-card {}
+
+
+#contactlist {
+    text-align: center;
+}
+
+#reg {
+    color: #171313;
+}
+
+#btnA {
+    margin: 10px;
+    background-color: rgb(20, 155, 209);
+    padding: 15px;
+    font-weight: bold;
+}
+
+#btnB {
+
+    background-color: red;
+    margin-right: 10px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+#btnC {
+    background-color: rgb(241, 182, 3);
+    margin-right: 10px;
+    padding: 15px;
+    font-weight: bold;
+}
